@@ -1,0 +1,131 @@
+form {
+    border: 3px solid #f1f1f1;
+}
+
+.eusi{
+	width: 60%;
+}
+
+input[type=text], input[type=password] {
+    
+}
+
+button {
+    
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+.containerr {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.labelku {
+	border-radius:99px;
+	padding: 10px 18px;
+	color: #ccc;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	margin-left:auto;
+	margin-right:auto;
+	width:auto;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.labelku:hover {
+	border: 1px solid #fff;
+	background-color: #ccc;
+	color: white;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 800px) {
+    span.psw{
+       display: block;
+       float: none;
+	   width: 100%;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+	.eusi {
+		width:100%;
+	}
+	img.avatar {
+    width: 100px;
+    height: 100px;
+	}
+	img.hore {
+	width: 50%;
+	height: auto;
+	}
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
